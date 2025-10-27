@@ -6,11 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <script>
+    let clicks= 0;
+            
         function clik(){
-            const clicks= 0;
             clicks++;
             document.getElementById('btn').innerText=clicks + 'clicks'
-            document.getElementById('titu3').innerText = 'Llevas ' + clicks + ' clicks';
+            document.getElementById('titu3').innerText = clicks + ' clicks';
             /*const clicks=document.getElementById('btn')
             for(var i=0; i<clicks.length; i++){
                 clicks[i].innerHTML='1 clicks';
