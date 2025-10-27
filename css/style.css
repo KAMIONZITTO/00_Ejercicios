@@ -1,0 +1,83 @@
+*{
+    margin: 10px;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #77a3c6;
+}
+
+.titu{
+    position: absolute;
+    top: 370px;
+    right: 350px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+#titu{
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    height: 100vh;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+#titu2{
+    display: flex;              
+    justify-content: center;    
+    align-items: center; 
+    height: 200px;       
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+#btn{      
+    position: absolute;
+    top: 520px;
+    right: 800px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50px;
+}
+
+#btn2{      
+    position: absolute;
+    top: 650px;
+    right: 800px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50px;
+}
+
+#btn3{      
+    position: absolute;
+    top: 550px;
+    right: 200px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50px;
+}
+
+#ardilla{
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+    border-radius: 50px;
+}
+
+.paginas{
+    display: flex;
+    flex-direction:row;
+    text-decoration: none;
+}
+.paginas li{
+    display: inline-block;
+
+    margin-right: 20px;
+    font-size: xx-large;
+}
+
+.paginas li:hover{
+    transform: translateY(-10px)
+}

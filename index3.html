@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function cambiarColor(){
+           const elementos= document.getElementsByClassName('letras');
+            for(var i=0; i<elementos.length; i++){
+                elementos[i].style.color="red";
+            } 
+        }
+    </script>
+</head>
+<body>
+    <div id="titu2">
+        <h1>MARIPOSA</h1>
+        <h2> by Isabella Lovestory</h2>
+    </div>
+    <div class="letras">
+        <p>Abre tus alas como mariposa</p>
+        <p>No puede parar de mover esa cosa</p>
+        <p>Sabe a chicle y huele a rosa</p>
+        <p>Muévelo, no te haga la chistosa</p>
+    </div>
+    
+    <div class="letras">
+        <p>Me ve y tiene mariposa en el estómago</p>
+        <p>Se queda hipnotizada con to', to' lo que yo hago</p>
+        <p>No te enamores de mí que tú no me puedes atrapar</p>
+        <p>Solo concéntrate en tus piernas abrir y cerrar</p>
+    </div>
+    <div class="letras">
+        <p>Si quieres yo te invito baby</p>
+        <p>A to' lo que tú quieras hacer en la party</p>
+        <p>Vente conmigo vente al VIP</p>
+        <p>**** y confía en mí</p>
+    </div>
+    <div>
+        <input type="button" value="COMPLETADO" id="btn2" onclick="cambiarColor()">
+    </div>
+</body>
+</html>
